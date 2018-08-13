@@ -6,6 +6,14 @@ common_cflags := \
     -DEXTERNAL_CODECS \
     -DBREAK_HANDLER \
     -DUNICODE -D_UNICODE -DUNIX_USE_WIN_FILE \
+    -Wno-reorder -Wno-sign-compare -Wno-delete-non-virtual-dtor \
+    -Wno-logical-op-parentheses -Wno-switch -Wno-unused-const-variable \
+    -Wno-dangling-else -Wno-ignored-qualifiers -Wno-unused-parameter \
+    -Wno-unused-private-field -Wno-self-assign -Wno-overloaded-virtual \
+    -Wno-deprecated-increment-bool -Wno-unneeded-internal-declaration \
+    -Wno-unused-function -Wno-unknown-warning-option \
+    -Wno-implicit-exception-spec-mismatch -Wno-missing-field-initializers \
+    -Wno-unused-variable \
     -Wno-non-virtual-dtor \
 	-Wno-c++11-narrowing
 
