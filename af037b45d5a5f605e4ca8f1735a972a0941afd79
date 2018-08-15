@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "13092de0_c4ac34ca",
+        "filename": "CPP/7zip/Archive/ArHandler.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 621,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2018-08-15T02:51:01Z",
+      "side": 1,
+      "message": "why the code change here ? (missing _mainSubfile \u003d -1)",
+      "revId": "af037b45d5a5f605e4ca8f1735a972a0941afd79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
